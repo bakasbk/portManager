@@ -1,0 +1,19 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Virtual environments (recreate with: python -m venv env) ----
+env/
+venv/
+
+# ---- PyInstaller build artifacts (exe lives in dist/, ship via GitHub Release) ----
+build/
+dist/
+
+# ---- WorkBuddy internal data ----
+.workbuddy/
+
+# ---- Bootstrap / wheels cache (no longer needed) ----
+wheels/
+bootstrap_install.py
